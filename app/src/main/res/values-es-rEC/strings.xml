@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Doodlz Aplicación "</string>
+    <string name="title_activity_main">Actividad principal</string>
+    <string name="first_fragment_label">Primer fragmento</string>
+    <string name="second_fragment_label">Segundo fragmento</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="hello_first_fragment">Hola primer fragmento</string>
+    <string name="hello_second_fragment">Hola segundo fragmento. Arg: %1$s</string>
+    <string name="button_erase">Borrar imagen</string>
+    <string name="button_set_color">Establecer el color</string>
+    <string name="button_set_line_width">Ajustar el ancho de línea</string>
+    <string name="line_imageview_description">Muestra el grosor de la línea</string>
+    <string name="label_alpha">Transparencia</string>
+    <string name="label_red">Rojo</string>
+    <string name="label_green">Verde</string>
+    <string name="label_blue">Azul</string>
+    <string name="menuitem_color">Color</string>
+    <string name="menuitem_delete">Borrar el dibujo</string>
+    <string name="menuitem_line_width">Ancho de línea</string>
+    <string name="menuitem_save">Guardar</string>
+    <string name="menuitem_print">Imprimir</string>
+    <string name="message_erase">¿Borrar el dibujo?</string>
+    <string name="message_error_saving">Hubo un error al guardar la imagen</string>
+    <string name="message_saved">Tu cuadro guardado puede verse en la aplicación Fotos seleccionando Carpetas del dispositivo en el menú de esa aplicación</string>
+    <string name="message_error_printing">Su dispositivo no admite la impresión</string>
+    <string name="permission_explanation">Para guardar una imagen, la aplicación necesita permiso para escribir en el almacenamiento externo</string>
+    <string name="title_color_dialog">Elija el color</string>
+    <string name="title_line_width_dialog">Elija el ancho de la línea</string>
+</resources>

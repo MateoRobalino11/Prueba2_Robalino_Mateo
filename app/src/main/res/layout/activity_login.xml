@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_titulo_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:layout_margin="15sp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editText_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:ems="10"
+        android:hint="Ingrese el nombre"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_titulo_contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textSize="18sp"
+        android:layout_margin="15sp"/>
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:ems="10"
+        android:hint="Ingrese la contraseña"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_iniciar_sesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:onClick="InciarSesion"
+        android:text="Iniciar Sesion "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_usuario1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user1"
+        android:textSize="18sp"
+        android:layout_margin="15sp"/>
+
+    <TextView
+        android:id="@+id/textView_usuario2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user2"
+        android:textSize="18sp"
+        android:layout_margin="15sp"/>
+</LinearLayout>
